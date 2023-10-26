@@ -9,12 +9,11 @@ import { Navbar } from './Navbar';
 
 export const App = () => (
   <>
-    {/* Also requires <html class="has-navbar-fixed-top"> */}
     <Navbar />
 
     <div className="section">
       <div className="container">
-        <Routes>
+        <Routes >
           <Route path="/" element={<HomePage />} />
           <Route path="/tabs">
             <Route index element={<TabsPage />} />
