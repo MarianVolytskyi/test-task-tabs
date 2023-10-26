@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom';
 import { TabItem } from './TabItem';
 import tabs from './data/tabs.json';
-import DummyTable from './components/dummyTable';
-import DummyChart from './components/dummyChart';
-import DummyList from './components/dummyList';
+import DummyTable from './components/DummyTable';
+import DummyChart from './components/DummyChart';
+import DummyList from './components/DummyList';
 
 export const TabsPage = () => {
   const { tabId } = useParams();
